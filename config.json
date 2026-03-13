@@ -1,0 +1,40 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "",
+        "database": "google_maps_scraper",
+        "charset": "utf8mb4",
+        "autocommit": true
+    },
+    "scraper": {
+        "delay_min": 2,
+        "delay_max": 5,
+        "headless": false,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "webdriver_path": "",
+        "proxy_file": "",
+        "default_limit": 50,
+        "export_excel": true
+    },
+    "ui": {
+        "theme": "dark",
+        "sidebar_width": 221,
+        "sidebar_collapsed_width": 60,
+        "window_width": 1200,
+        "window_height": 800,
+        "font_family": "Segoe UI",
+        "font_size": 10
+    },
+    "logging": {
+        "level": "INFO",
+        "max_log_files": 5,
+        "max_file_size_mb": 10
+    },
+    "export": {
+        "output_directory": "exports",
+        "auto_open_excel": false,
+        "include_statistics": true
+    }
+}
